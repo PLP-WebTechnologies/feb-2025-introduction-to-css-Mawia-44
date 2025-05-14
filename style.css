@@ -1,0 +1,52 @@
+/* 1. Set the background color and font family for the body */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Style for header (ID selector) */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+/* 3. Style for images with a class selector */
+img.profile-pic {
+    border-radius: 50%;
+    border: 5px solid #4CAF50;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+/* 4. Style for paragraphs (class selector) */
+.intro {
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+/* 5. Style for a button (class selector) */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
